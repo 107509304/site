@@ -43,6 +43,16 @@
                 display: block;
             }
 
+            .only-for-tablet {
+                display: none;
+            }
+
+            .only-for-phone {
+                display: none;
+            }
+
+
+
 
 
             .header {
@@ -90,6 +100,8 @@
                 display: inline-block;
                 width: 400px;
                 height: 96px;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .firstimg {
@@ -97,6 +109,8 @@
                 height: 443px;
                 display: inline-block;
                 vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .firsttitle {
@@ -219,7 +233,7 @@
                 width: 900px;
                 height: 1013px;
                 left: 0px;
-                margin-top: 250px;
+                margin-top: 600px;
                 background-color: #FFFAF9;
                 margin-left: auto;
                 margin-right: auto;
@@ -231,7 +245,7 @@
                 width: 600px;
                 height: 416px;
                 margin-left: 45px;
-                top: 1000px;
+                top: 1867px;
                 padding-right: 30px;
                 padding-top: 10px;
             }
@@ -262,6 +276,139 @@
                 margin-left: auto;
                 top: 1867px;
             }
+
+
+        }
+
+        @media (max-width: 767px) {
+            .only-for-desktop {
+                display: none;
+            }
+
+            .only-for-tablet {
+                display: none;
+            }
+
+            .only-for-phone {
+                display: block;
+            }
+
+            .header {
+                background-color: #6E5241;
+                width: 100%;
+                height: 60px;
+                position: relative;
+            }
+
+            .header-font {
+                font-family: 'Noto Serif TC';
+                font-size: 15px;
+                line-height: 29px;
+                font-weight: 900;
+                color: #FFFAF9;
+                margin-right: 15px;
+                letter-spacing: 0.04em;
+            }
+
+            .header-font a:hover {
+                color: #FFFAF9;
+                opacity: 60%;
+            }
+
+            .logo {
+                width: 82px;
+                position: absolute;
+                left: 10px;
+                top: 5px;
+            }
+
+            .p {
+                background-color: #FFFAF9;
+                margin-right: auto;
+                margin-left: auto;
+                position: relative;
+                width: 100%;
+                height: 134px;
+            }
+
+
+            .school {
+                margin-left: auto;
+                margin-right: auto;
+                background: #FFFAF9;
+                margin-top: 70px;
+            }
+
+            .school-1 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                padding-top: 8.8px;
+            }
+
+            .school-2 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                margin-top: 30px;
+
+            }
+
+            .school-3 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                margin-top: 30px;
+
+            }
+
+            .school-4 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                margin-top: 30px;
+
+            }
+
+            .school-5 {
+                width: 280px;
+                height: 276px;
+                margin: auto;
+                margin-top: 30px;
+
+            }
+
+            .cat {
+                width: 60px;
+                height: 30px;
+                background-color: #A98B73;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .cat-font {
+                font-family: 'Noto Serif TC';
+                font-size: 16px;
+                line-height: 23.17px;
+                font-weight: 500;
+                color: #FFFAF9;
+            }
+
+            .title {
+                width: 280px;
+                height: 40px;
+                font-family: 'Noto Serif TC';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 23px;
+                color: #6E5241;
+                text-align: center;
+
+
+            }
+
 
 
         }
@@ -298,12 +445,12 @@
 
         </div>
 
-        <div style="position: absolute;width: 314px;height: 314px;margin-top: 130px;margin-left: 320px;">
+        <div style="position: absolute;width: 314px;height: 314px;margin-top: 130px;margin-left: 280px;">
             <div style="display: flex;align-items: flex-end;">
                 <div style="display: inline-block;">
                     <div class="firstpic">
                         <a href=" https://nickhsine.github.io/teach-at-nccu/">
-                            <img src="assets/學生成南鐵聲援主力　多元行動訴求保留原梯.jpg" class="firstimg">
+                            <img src="assets/school-1.jpg" class="firstimg">
                             <div style="position: absolute;width: 314px;height: 100px;margin-top: -375px;margin-left: 612px;"
                                 class="articleinfotitle">
                                 <span class="articleinfotitle-font">學生成南鐵聲援主力　多元行動訴求保留原梯</span>
@@ -318,36 +465,116 @@
                     </div></a>
                 </div>
             </div>
+        </div>
 
 
-
-            <div class="school">
-                <div style="display: flex; justify-content: center;">
-                    <div class="scn-1">
-                        <img src="assets/中天違規再陷換照危機　青年連署籲撤照.jpg" width="454px" height="303px">
-                        <div class="secondtitle">中天違規再陷換照危機　青年連署籲撤照</div>
-                    </div>
-                    <div class="scn-2">
-                        <img src="assets/同遊新聲　異溫層青年啟對話.jpg" width="454px" height="303px">
-                        <div class="secondtitle">同遊新聲　異溫層青年啟對話</div>
-
-                    </div>
+        <div class="school">
+            <div style="display: flex; justify-content: center;">
+                <div class="scn-1">
+                    <img src="assets/school-2.jpg" width="454px" height="303px">
+                    <div class="secondtitle">中天違規再陷換照危機　青年連署籲撤照</div>
                 </div>
+                <div class="scn-2">
+                    <img src="assets/school-3.jpg" width="454px" height="303px">
+                    <div class="secondtitle">同遊新聲　異溫層青年啟對話</div>
 
-                <div style="display: flex; justify-content: center;">
-                    <div class="scn-3">
-                        <img src="assets/盼在地擁抱多元　學生主辦首屆雲林彩虹遊行.jpg" width="454px" height="303px">
-                        <div class="secondtitle">盼在地擁抱多元　學生主辦首屆雲林彩虹遊行</div>
-
-
-                    </div>
-                    <div class="scn-4">
-                        <img src="assets/不分系倡跨域學習　專業難認定成挑戰.jpg" width="454px" height="303px">
-                        <div class="secondtitle">不分系倡跨域學習　專業難認定成挑戰</div>
-
-                    </div>
                 </div>
             </div>
+            <div style="display: flex; justify-content: center;">
+                <div class="scn-3">
+                    <img src="assets/school-4.jpg" width="454px" height="303px">
+                    <div class="secondtitle">盼在地擁抱多元　學生主辦首屆雲林彩虹遊行</div>
+
+
+                </div>
+                <div class="scn-4">
+                    <img src="assets/school-5.jpg" width="454px" height="303px">
+                    <div class="secondtitle">不分系倡跨域學習　專業難認定成挑戰</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="only-for-phone">
+        <div class="header">
+            <div>
+                <a href="">
+                    <img src="assets/logo.png" class="logo"></a>
+            </div>
+            <div style="display: inline-block; position: absolute; right:5px; top:20px">
+                <span class="header-font"><a href="https://106204021.github.io/trashnews/campuscat.html"
+                        target="_self">校園</a></span>
+                <span class="header-font"><a href="https://106204021.github.io/trashnews/sportcat.html"
+                        target="_self">國際</a></span>
+                <span class="header-font"><a href="https://106204021.github.io/trashnews/artcat.html"
+                        target="_self">體育</a></span>
+                <span class="header-font"><a href="https://106204021.github.io/trashnews/about.html"
+                        target="_self">生活</a></span>
+                <span class="header-font"><a href="https://106204021.github.io/trashnews/about.html"
+                        target="_self">專題</a></span>
+                <span class="header-font"><a href="https://106204021.github.io/trashnews/about.html"
+                        target="_self">關於我們</a></span>
+            </div>
+
+        </div>
+
+        <div style="position: absolute;margin-top: 30px;margin-left: 30px;">
+            <div style="display: flex;align-items: flex-end;">
+                <div style="display: inline-block;">
+                    <div class="cat">
+                        <span class="cat-font">校園</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="school">
+            <div class="school-1">
+                <a href="">
+                    <img src="assets/school-1.jpg" width="280px" height="210px">
+                    <div class="title">學生成南鐵聲援主力<br>
+                        多元行動訴求保留原梯</div>
+                </a>
+            </div>
+
+            <div class="school-2">
+                <a href="">
+                    <img src="assets/school-2.jpg" width="280px" height="210px">
+                    <div class="title">中天違規再陷換照危機<br>
+                        青年連署籲撤照
+                    </div>
+                </a>
+            </div>
+            <div class="school-3">
+                <a href="">
+                    <img src="assets/school-3.jpg" width="280px" height="210px">
+                    <div class="title">同遊新聲<br>
+                        異溫層青年啟對話
+                    </div>
+                </a>
+            </div>
+            <div class="school-4">
+                <a href="">
+                    <img src="assets/school-4.jpg" width="280px" height="210px">
+                    <div class="title">盼在地擁抱多元<br>
+                        學生主辦首屆雲林彩虹遊行
+                    </div>
+                </a>
+            </div>
+            <div class="school-5">
+                <a href="">
+                    <img src="assets/school-5.jpg" width="280px" height="210px">
+                    <div class="title">不分系倡跨域學習<br>
+                        專業難認定成挑戰
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 
 
